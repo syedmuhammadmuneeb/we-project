@@ -86,10 +86,10 @@ $query = mysqli_query($conn,$result);
                         <i class="mdi mdi-panorama-vertical"></i>
                         <div class="title">SHAPES</div>
                     </div>
-                    <div data-activates="stickers" class="nav-item">
+                    <!-- <div data-activates="stickers" class="nav-item">
                         <i class="mdi mdi-favorite"></i>
                         <div class="title pull-up">Stickers</div>
-                    </div>
+                    </div> -->
                 </div>
                 <div id="tabs">
                     <section id="basics" data-index="1" class="tab">
