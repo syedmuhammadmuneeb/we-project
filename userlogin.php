@@ -72,7 +72,7 @@
             <input type="textarea" name="address"  class="form-control" required>
           </div>
           <div class="form-group">
-            <label>Position</label>
+            <label>Gender</label>
             <input type="text" name="gender" placeholder="male/female" class="form-control" required>
           </div>
           <!-- <div class="form-group">
