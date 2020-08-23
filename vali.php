@@ -7,7 +7,7 @@ $user = $_POST['username'];
 $pass = $_POST['password'];
 
 
-$s = "SELECT * FROM users WHERE username = '$user' && pass = '$pass'";
+$s = "SELECT * FROM temp WHERE username = '$user' && password = '$pass'";
 $result = mysqli_query($conn,$s);
 $nums = mysqli_fetch_array($result);
 
