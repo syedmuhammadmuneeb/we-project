@@ -1,15 +1,15 @@
 
 
 <?php
-$servername = "php-database.mysql.database.azure.com";
-$username = "muneeb@php-database";
-$password = "Admin123";
+$servername = "localhost";
+$username = "root";
+$password = "";
 $dbname = "project";
 
 $conn=mysqli_init(); 
 //mysqli_ssl_set($con, NULL, NULL, "cacert.pem", NULL, NULL);
 //mysqli_ssl_set($con, "key.pem", "cert.pem", "cacert.pem", NULL, NULL);
-mysqli_real_connect($conn, "php-database.mysql.database.azure.com", "muneeb@php-database","Admin123","project", 3306);
+mysqli_real_connect($conn, "localhost", "root","","project", 3306);
 
 if($conn){
 	echo "Hello";
